@@ -2,32 +2,28 @@
 ---
 @import "minima";
 
+<html>
+<head>
+<style>
 body {
-  /* Classic web-safe font and small text size */
-  font-family: Tahoma, Verdana, sans-serif;
-  font-size: 12px; 
-  /* Add a repeating background pattern or color here */
-  background-color: #dbe4eb; 
+  background-color: lightblue;
 }
 
-/* This targets the main content container */
-.wrapper {
-  max-width: 760px; /* Forces the "tiny" fixed width */
-  margin: 20px auto; /* Centers it and adds space at the top */
-  background-color: #ffffff;
-  
-  /* Creates the old-school framed look */
-  border: 1px solid #999;
-  border-top: 3px solid #333;
-  padding: 15px 25px;
-  
-  /* Optional: Adds a subtle retro drop shadow */
-  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+h1 {
+  color: white;
+  text-align: center;
 }
 
-/* Make links blue and underlined, exactly like older sites */
-a {
-  color: #0000ee;
-  text-decoration: underline;
+p {
+  font-family: verdana;
+  font-size: 20px;
 }
-}
+</style>
+</head>
+<body>
+
+<h1>My First CSS Example</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
